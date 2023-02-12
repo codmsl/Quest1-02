@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web 1-02</title>
+    </head>
+    <style>
+        div:first-child i { font-size: 20px; }
+        #box_all { 
+            width: 1000px; 
+            height: 500px;
+            display: block; 
+            margin: 0 auto;
+        }
+        .box_left { width: 750px; height: 500px; position: relative;}
+        .box_right { width: 210px; height: 460px;}
+        .box {
+            width: 210px; 
+            height: 210px;
+            position: absolute;
+        }
+        #footer {
+            display: block; 
+            margin: 0 auto;
+            width: 1000px;
+            background-color: pink;
+        }
+        div.f_left{ width: 750px; height: 30px; background-color: grey;}
+        div o::after{content: "|" ; color: orange;}
+    </style>
+    <body>
+        <div id="box_all">
+            <div class="box_left" style="float: left;">
+                <div class="box" style="padding: 20px; top: 0%; left: 0%;">
+                    <i><b>TITLE</b></i><br>
+                    zoavldzmffjq wjdakf woalTdj <br>
+                    wlrma ckfh dlehdwnddldi <br>
+                </div>
+                <div class="box" style="padding: 20px; top: 0%; left: 33.3333333%; background-color: rgb(237, 136, 12);">
+                    <i><b>TITLE</b></i><br>
+                    zoavldzmffjq wjdakf woalTdj <br>
+                    wlrma ckfh dlehdwnddldi <br>
+                </div>
+                <div class="box" style="padding: 20px; top: 0%; left: 66.666666%; background-color: rgb(141, 94, 6);"> 3 </div>
+                <div class="box" style="padding: 20px; top: 50%; left: 0%; background-color: rgb(237, 136, 12);"> 4 </div>
+                <div class="box" style="padding: 20px; top: 50%; left: 33.333333%; background-color: rgb(141, 94, 6);"> 5 </div>
+                <div class="box" style="padding: 20px; top: 50%; left: 66.666666%; background-color: rgb(237, 136, 12);"> 6 </div>
+            </div>
+            <div class="box_right" style="padding: 20px; float: right; display: block;">7</div>
+        </div>
+        <div id="footer">
+            <div class="f_left" style="padding-top: 10px;">
+                <o>&nbsp&nbsp&nbsp&nbsp&nbsp법적고지&nbsp&nbsp&nbsp</o>
+                <o>&nbsp&nbsp&nbsp이메일무단수집거부&nbsp&nbsp&nbsp</o>
+                <o>&nbsp&nbsp&nbsp이용약관&nbsp&nbsp&nbsp</o>
+                <o>&nbsp&nbsp&nbsp개인정보취급방침&nbsp&nbsp&nbsp</o>
+                <o>&nbsp&nbsp&nbsp고객센터&nbsp&nbsp&nbsp</o>
+                &nbsp&nbsp&nbsp입찰공고&nbsp&nbsp&nbsp
+            </div>
+        </div>
+    </body>
+</html>
